@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[Your Snooker Parlour Name]</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">[Your Logo]</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#book">Book a Table</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Play Like a Pro</h1>
+      <p>Book a table at [Your Snooker Parlour Name] and experience the best in snooker.</p>
+      <a href="#book" class="btn">Reserve Now</a>
+    </div>
+    <div class="hero-image">
+      <img src="snooker-table.jpg" alt="Snooker Table" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      [Your Snooker Parlour Name] is a premier destination for snooker enthusiasts. With [X] professional-grade tables, expert coaching, and a vibrant community, we cater to players of all skill levels. Whether you're a beginner or a seasoned pro, we've got you covered.
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Table Hire</h3>
+        <p>Book a table for hours or days. Perfect for casual play or tournaments.</p>
+      </div>
+      <div class="card">
+        <h3>Private Lessons</h3>
+        <p>Learn from the pros with personalized coaching sessions.</p>
+      </div>
+      <div class="card">
+        <h3>Events & Tournaments</h3>
+        <p>Host your next event or join our weekly tournaments.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section id="book" class="booking">
+    <h2>Book a Table</h2>
+    <form id="booking-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" required />
+
+      <label for="time">Time:</label>
+      <input type="time" id="time" required />
+
+      <label for="duration">Duration (hours):</label>
+      <input type="number" id="duration" min="1" max="12" required />
+
+      <button type="submit" class="btn">Submit Booking</button>
+    </form>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="pricing">
+    <h2>Pricing</h2>
+    <div class="price-table">
+      <div class="price-card">
+        <h3>Hourly Rate</h3>
+        <p>$15/hour</p>
+      </div>
+      <div class="price-card">
+        <h3>Private Lesson</h3>
+        <p>$50/session</p>
+      </div>
+      <div class="price-card">
+        <h3>Event Package</h3>
+        <p>$200/event</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@yoursnookerparlour.com | Phone: +1 (123) 456-7890</p>
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.333!2d-73.994454!3d40.750042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0ff7d0b0b0b0b:0x5a67990c0b0b0b0b!2sNew+York!5e0!3m2!1sen!2sus!4v1234567890"
+        width="100%"
+        height="300"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 [Your Snooker Parlour Name]. All rights reserved.</p>
+    <div class="socials">
+      <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">Twitter</a>
+    </div>
+  </footer>
+</body>
+</html>
